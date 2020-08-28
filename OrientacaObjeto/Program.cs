@@ -22,6 +22,12 @@ namespace OrientacaObjeto
             list.ForechPessoa(pessoas);
             list.ListaNaoOrdenada(pessoas);
             list.ListaOrdenada(pessoas);
+            list.ListaInserirItemNaPosicao(pessoas);
+            list.ListaRemoverItem(pessoas);
+            list.ListaVerificarSeItemExiste(pessoas);
+            list.ListaConverterParaArray(pessoas);
+            list.ListaLocalizaPessoaMaisJovem(pessoas);
+
         }
     }
 }
